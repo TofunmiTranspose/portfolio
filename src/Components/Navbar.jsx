@@ -3,6 +3,11 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { FaSun } from "react-icons/fa";
 const Navbar = () => {
   const [dark, setDark] = useState(true);
+  if(dark) {
+    document.querySelector('#app').style.backgroundColor = 'white'
+  } else {
+    document.querySelector('#app').style.backgroundColor = 'red'
+  }
   
   return (
     <div className="mx-auto flex justify-between w-9/10">
