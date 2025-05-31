@@ -22,7 +22,7 @@ const Navbar = () => {
           />
         </div>
       </div>
-        <FaSun onClick=" setDark(!dark) " className="text-white"/>
+        <FaSun onClick=" setDark(!dark) " className="text-white text-md"/>
     </div>
   );
 };
