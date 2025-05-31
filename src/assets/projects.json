@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "E-commerce Store Rebuild",
+    "description": "A full-stack e-commerce platform built with React, Node.js, and MongoDB, featuring user authentication, product catalog, shopping cart, and payment integration.",
+    "liveUrl": "https://www.example-ecommerce.com",
+    "githubUrl": "https://github.com/yourusername/ecommerce-project",
+    "previewImage": "project1Image",
+    "technologies": ["React", "Node.js", "MongoDB", "Stripe"]
+  },
+  {
+    "id": 2,
+    "title": "Real-time Chat Application",
+    "description": "A web-based chat application using WebSockets for instant messaging, with private and group chat features.",
+    "liveUrl": "https://www.example-chat-app.com",
+    "githubUrl": "https://github.com/yourusername/chat-app",
+    "previewImage": "project2Image",
+    "technologies": ["React", "Socket.IO", "Express"]
+  }
+]
