@@ -1,9 +1,5 @@
 import React from "react";
-<<<<<<< HEAD
 import profilePic from "./ProfilePic.png";
-=======
-import profilePic from './ProfilePic.png'
->>>>>>> 14d3cc765a171c492243622a7e65695f6d67216d
 
 const Hero = () => {
   return (
