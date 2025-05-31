@@ -1,4 +1,5 @@
 import React from "react";
+
 const Navbar = () => {
   return (
     <div className="bg-gray-800 w-7/10 h-15 px-1 py-3 items-center justify-around rounded-full flex">
@@ -13,5 +14,4 @@ const Navbar = () => {
     </div>
   );
 };
-
 export default Navbar;
