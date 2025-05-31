@@ -6,7 +6,7 @@ import Projects from "./Components/Projects";
 
 const App = () => {
   return (
-    <div className="py-2 min-w-80 bg-black w-screen box-border">
+    <div id="app" className="py-2 min-w-80 bg-black w-screen box-border">
       <Navbar />
       <Hero />
       <Skills />
