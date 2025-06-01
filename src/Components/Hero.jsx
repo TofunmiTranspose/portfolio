@@ -3,8 +3,8 @@ import profilePic from "./ProfilePic.png";
 
 const Hero = () => {
   return (
-    <>
-      <div className="h-screen/2 mt-8 flex flex-col justify-center items-center">
+    <div className="w-full sm:mt-10 flex sm:justify-around flex-col sm:flex-row">
+      <div className="h-screen/2 sm:w-full mt-8 flex flex-col justify-center items-center">
         <h2 className="text-md font-bold text-teal-400">
           FRONT-END WEB DEVELOPER
         </h2>
@@ -15,12 +15,12 @@ const Hero = () => {
           A passionate Web Developer with 1 year of experience
         </p>
       </div>
-      <div className="w-full flex justify-center items-center">
-        <div className="rounded-full border-2 border-teal-300  w-9/10">
+      <div className="w-full sm:w-full flex justify-center items-center">
+        <div className="rounded-full border-2 border-teal-300  w-8/10">
           <img src={profilePic} />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
