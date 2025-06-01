@@ -29,17 +29,18 @@ const Projects = () => {
         </h2>
         <Project
           title="Crypto DashboardCrypto Dashboard"
-          src="src\Components\images\dashBoard.png"
+          src="/dashBoard.png"
           href="https://crypto-dashboard-gilt-one.vercel.app/"
         />
         <Project
           title="Todo App with Firebase Realtime Database"
-          src="src\Components\images\firbase.png"
+          src="/firbase.png"
           href="https://tofunmitranspose.github.io/firebase-todo/"
         />
         <Project
           title="Landing Page for Branding"
-          src="https://tofunmitranspose.github.io/brand/"
+          href="https://tofunmitranspose.github.io/brand/"
+          src="/brand.png"
         />
       </div>
     </div>
