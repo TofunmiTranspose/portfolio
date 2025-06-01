@@ -23,7 +23,7 @@ export const Project = (props) => {
 const Projects = () => {
   return (
     <div>
-      <div className="flex flex-col items-center gap-10">
+      <div className="sm:mt-10 flex flex-col items-center gap-10">
         <h2 className="text-center text-xl text-[#ff6600] font-bold mb-2">
           PROJECTS
         </h2>
@@ -37,7 +37,10 @@ const Projects = () => {
           src="src\Components\images\firbase.png"
           href="https://tofunmitranspose.github.io/firebase-todo/"
         />
-        <Project />
+        <Project
+          title="Landing Page for Branding"
+          src="https://tofunmitranspose.github.io/brand/"
+        />
       </div>
     </div>
   );
