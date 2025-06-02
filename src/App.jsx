@@ -7,8 +7,6 @@ import LightDark from "./Components/LightDark";
 import Burger from "./Components/Burger";
 
 const App = () => {
-  const themeContext = createContext();
-
   return (
     <div id="app" className="py-2 min-w-80 bg-black w-screen box-border">
       <div className="px-1 flex w-screen justify-around items-center">
