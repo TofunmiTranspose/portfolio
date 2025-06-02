@@ -5,10 +5,11 @@ import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import LightDark from "./Components/LightDark";
 import Burger from "./Components/Burger";
+import Contact from "./Components/Contact";
 
 const App = () => {
   return (
-    <div id="app" className="py-2 min-w-80 bg-black w-screen box-border">
+    <div id="app" className=" pt-2 min-w-80 bg-black w-screen box-border">
       <div className="px-1 flex w-screen justify-around items-center">
         <Navbar />
         <div className="flex items-center gap-2">
@@ -19,6 +20,7 @@ const App = () => {
       <Hero />
       <Skills />
       <Projects />
+      <Contact/>
     </div>
   );
 };
