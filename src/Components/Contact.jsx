@@ -27,8 +27,11 @@ const Contact = () => {
           <FaWhatsapp className="text-green-600" />
         </a>
         <FaFacebook className="text-blue-600" />
+        
         <FaLinkedin className="text-blue-700" />
-        <FaPhoneSquareAlt className="text-green-400" />
+        <a href="tel:+2349134744279">
+         <FaPhoneSquareAlt className="text-green-400" />
+        </a>
       </div>
     </div>
   );
