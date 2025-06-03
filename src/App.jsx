@@ -1,4 +1,4 @@
-import React, { createContext } from "react";
+import React, { createContext, useState, useContext } from "react";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Skills from "./Components/Skills";
@@ -7,21 +7,32 @@ import LightDark from "./Components/LightDark";
 import Burger from "./Components/Burger";
 import Contact from "./Components/Contact";
 
+export const ThemeContext = createContext();
+
 const App = () => {
+  const [theme, setTheme] = useState(true);
+  const toggleTheme = () => {
+    setTheme(!theme);
+    console.log(theme);
+  };
+  const bG = theme ? 'bg-[#090909]' : 'bg-[#1b1b1b]';
+
   return (
-    <div id="app" className=" pt-2 min-w-80 bg-black w-screen box-border">
-      <div className="px-5 flex w-screen justify-between items-center">
-        <Navbar />
-        <div className="flex items-center gap-2">
-          <Burger />
-          <LightDark />
+    <ThemeContext.Provider value={{theme, toggleTheme}}>
+      <div id="app" className={`pt-2 min-w-80 ${bG} w-screen box-border`}>
+        <div className="px-5 flex w-screen justify-between items-center">
+          <Navbar />
+          <div className="flex items-center gap-2">
+            <Burger />
+            <LightDark />
+          </div>
         </div>
+        <Hero />
+        <Skills />
+        <Projects />
+        <Contact />
       </div>
-      <Hero />
-      <Skills />
-      <Projects />
-      <Contact/>
-    </div>
+    </ThemeContext.Provider>
   );
 };
 

@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "../App.jsx";
 import { FaSun } from "react-icons/fa";
 
 const LightDark = () => {
-  return <FaSun className="text-white" />;
+  const { theme, toggleTheme } = useContext(ThemeContext);
+  return (
+    <FaSun
+      onClick={() => toggleTheme()}
+      className={theme ? "text-white" : "text-gray-300"}
+    />
+  );
 };
 
 export default LightDark;
