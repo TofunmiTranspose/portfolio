@@ -10,7 +10,7 @@ import {
 
 const Contact = () => {
   return (
-    <div className="w-full py-2 px-4 bg-[#0f0f0f] mt-15 flex flex-col gap-2">
+    <div id="contactSection" className="w-full py-2 px-4 bg-[#0f0f0f] mt-15 flex flex-col gap-2">
       <div>
         <h1 className="text-white font-semibold text-lg">Contact</h1>
       </div>
@@ -26,9 +26,15 @@ const Contact = () => {
         <a href="https://wa.link/yjileb">
           <FaWhatsapp className="text-green-600" />
         </a>
+
         <FaFacebook className="text-blue-600" />
-        <FaLinkedin className="text-blue-700" />
-        <FaPhoneSquareAlt className="text-green-400" />
+        <a href="http://linkedin.com/in/tofunmitranspose?">
+          <FaLinkedin className="text-blue-700" />
+        </a>
+
+        <a href="tel:+2349134744279">
+          <FaPhoneSquareAlt className="text-green-400" />
+        </a>
       </div>
     </div>
   );

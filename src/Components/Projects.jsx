@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div>
       <div className="sm:mt-10 flex flex-col items-center gap-10">
-        <h2 className="text-center text-xl text-[#ff6600] font-bold">
+        <h2 id="projectsSection" className="text-center text-xl text-[#ff6600] font-bold">
           PROJECTS
         </h2>
         <div className="flex flex-wrap gap-5 w-full items-baseline justify-center">

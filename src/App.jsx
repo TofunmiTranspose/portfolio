@@ -10,7 +10,7 @@ import Contact from "./Components/Contact";
 const App = () => {
   return (
     <div id="app" className=" pt-2 min-w-80 bg-black w-screen box-border">
-      <div className="px-1 flex w-screen justify-around items-center">
+      <div className="px-5 flex w-screen justify-between items-center">
         <Navbar />
         <div className="flex items-center gap-2">
           <Burger />
