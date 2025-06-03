@@ -1,7 +1,9 @@
-import React from "react";
+import React, {useContext} from "react";
+import { ThemeContext } from "../App.jsx";
 import { TfiArrowTopRight } from "react-icons/tfi";
 
 const Projects = () => {
+    const { theme } = useContext(ThemeContext);
   return (
     <div>
       <div className="sm:mt-10 flex flex-col items-center gap-10">

@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "../App";
 
 const Navbar = () => {
+  const { theme } = useContext(ThemeContext);
+  const accCol = theme
+    ? { a: "bg-gray-800", b: "text-white" }
+    : { a: "bg-[#3b3b3b]", b: "text-[#ffffff]" };
   return (
-    <div className="bg-gray-800 w-full sm:mr-10 h-15 px-1 py-3 items-center justify-between rounded-full flex">
+    <div
+      className={`${accCol.a} w-full sm:mr-10 h-15 px-1 py-3 items-center justify-between rounded-full flex`}
+    >
       <div className="ml-3">
-        <h2 className="sm:text-sm text-xl font-bold text-white">
+        <h2 className={`sm:text-sm text-xl font-bold ${accCol.b}`}>
           <span className="sm:hidden">TRANSPOSE</span>{" "}
           <span className="hidden sm:inline">Tofunmi</span>{" "}
           <span className="hidden sm:inline">Okeowo</span>
@@ -20,7 +27,9 @@ const Navbar = () => {
         <a href="#contactSection">Contact</a>
       </div>
       <div className="mr-3">
-        <button className="bg-teal-500 px-3 w-20 py-1 rounded-full text-white font-semibold text-sm">
+        <button
+          className={`bg-teal-500 px-3 w-20 py-1 rounded-full  ${accCol.b} font-semibold text-sm`}
+        >
           <a href="https://wa.link/yjileb">Hire Me</a>
         </button>
       </div>

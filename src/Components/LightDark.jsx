@@ -7,7 +7,7 @@ const LightDark = () => {
   return (
     <FaSun
       onClick={() => toggleTheme()}
-      className={theme ? "text-white" : "text-gray-300"}
+      className={theme ? "text-white" : "text-[#1b1b1b]"}
     />
   );
 };

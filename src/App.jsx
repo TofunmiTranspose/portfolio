@@ -15,11 +15,11 @@ const App = () => {
     setTheme(!theme);
     console.log(theme);
   };
-  const bG = theme ? 'bg-[#090909]' : 'bg-[#1b1b1b]';
+  const mBg = theme ? 'bg-[#090909]' : 'bg-[#F9F9F9]';
 
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>
-      <div id="app" className={`pt-2 min-w-80 ${bG} w-screen box-border`}>
+      <div id="app" className={`pt-2 min-w-80 ${mBg} w-screen box-border`}>
         <div className="px-5 flex w-screen justify-between items-center">
           <Navbar />
           <div className="flex items-center gap-2">
