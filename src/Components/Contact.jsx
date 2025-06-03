@@ -22,14 +22,16 @@ const Contact = () => {
         bringing Figma to life, and building web solutions. <br />
         <div className="font-semibold mt-1 text-gray-300">
           <MdMailOutline className="text-gray-300 inline text-[14px]" />{" "}
-          <a href="mailto:tofexzyno@gmail.com">tofexzyno@gmail.com</a>
+          <a target="_blank" href="mailto:tofexzyno@gmail.com">
+            tofexzyno@gmail.com
+          </a>
         </div>
       </div>
       <div target="_blank" className="flex text-white gap-5 text-lg">
         <a href="https://wa.link/yjileb">
           <FaWhatsapp className="text-green-600" />
         </a>
-        <a href="https://facebook.com/tofexzyno2005">
+        <a target="_blank" href="https://facebook.com/tofexzyno2005">
           <FaFacebook className="text-blue-600" />
         </a>
         <a target="_blank" href="http://linkedin.com/in/tofunmitranspose?">
