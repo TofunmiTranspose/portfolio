@@ -22,7 +22,7 @@ const Hero = () => {
         <p
           className={`text-sm text-center sm:text-start sm:max-w-65 ${pasCol} font-semibold mb-10`}
         >
-          A passionate Web Developer with 1 year of experience
+          A passionate Web Developer bringing ideas to life, <b>pixel by pixel</b> 
         </p>
       </div>
       <div className="w-full sm:w-7/10 flex justify-center items-center">
