@@ -28,7 +28,7 @@ const Contact = () => {
         </div>
       </div>
       <div target="_blank" className="flex text-white gap-5 text-lg">
-        <a href="https://wa.link/yjileb">
+        <a target="_blank" href="https://wa.link/yjileb">
           <FaWhatsapp className="text-green-600" />
         </a>
         <a target="_blank" href="https://facebook.com/tofexzyno2005">
