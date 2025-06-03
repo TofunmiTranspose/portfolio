@@ -25,12 +25,14 @@ const Contact = () => {
           <a href="mailto:tofexzyno@gmail.com">tofexzyno@gmail.com</a>
         </div>
       </div>
-      <div className="flex text-white gap-5 text-lg">
+      <div target="_blank" className="flex text-white gap-5 text-lg">
         <a href="https://wa.link/yjileb">
           <FaWhatsapp className="text-green-600" />
         </a>
-        <FaFacebook className="text-blue-600" />
-        <a href="http://linkedin.com/in/tofunmitranspose?">
+        <a href="https://facebook.com/tofexzyno2005">
+          <FaFacebook className="text-blue-600" />
+        </a>
+        <a target="_blank" href="http://linkedin.com/in/tofunmitranspose?">
           <FaLinkedin className="text-blue-700" />
         </a>
         <a href="tel:+2349134744279">
