@@ -34,7 +34,7 @@ const Contact = () => {
 
         <a href="tel:+2349134744279">
           <FaPhoneSquareAlt className="text-green-400" />
-        </a>
+  </a>
       </div>
     </div>
   );
