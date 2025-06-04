@@ -2,7 +2,7 @@ import React from 'react'
 
 const Attributes = () => {
   return (
-    <div className='mt-10 w-full h-8 bg-[#2f2525] flex items-center justify-center text-white text-[8px] font-semibold z-1'
+    <div className='mt-10 w-full h-8 bg-[#322828] flex items-center justify-center text-white text-[8px] font-semibold z-1'
     >
       <ul className='w-full flex justify-around'>
         <li>FAST LEARNER</li>
