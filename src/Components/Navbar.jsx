@@ -18,10 +18,8 @@ const Navbar = () => {
         </h2>
       </div>
       <div className=" min-w-50 hidden w-5/10 text-gray-300 text-[10px] sm:flex justify-between">
-        <a href="#" className="active:text-teal-400">
-          About Me
-        </a>
-        <a href="#">Skills</a>
+        <a href="#">About Me</a>
+        <a href="#skills">Skills</a>
         <a href="#">Experience</a>
         <a href="#projectsSection">Projects</a>
         <a href="#contactSection">Contact</a>
