@@ -15,7 +15,7 @@ const App = () => {
     setTheme(!theme);
     console.log(theme);
   };
-  const mBg = theme ? 'bg-[#0f0f0f]' : 'bg-[#e000e0]';
+  const mBg = theme ? 'bg-[#0f0f0f]' : 'bg-[#e000ff]';
 
   return (
     <ThemeContext.Provider value={{theme, toggleTheme}}>
