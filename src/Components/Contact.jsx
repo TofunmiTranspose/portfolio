@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div
       id="contactSection"
-      className="w-full py-2 px-4 bg-[#0f0f0f] mt-15 flex flex-col gap-2"
+      className="w-full py-2 px-4 bg-[#1a1a1a] mt-15 flex flex-col gap-2"
     >
       <div>
         <h1 className="text-white font-semibold text-lg">Contact</h1>
@@ -29,16 +29,16 @@ const Contact = () => {
       </div>
       <div target="_blank" className="flex text-white gap-5 text-lg">
         <a target="_blank" href="https://wa.link/yjileb">
-          <FaWhatsapp className="text-green-600" />
+          <FaWhatsapp className="text-green-400" />
         </a>
         <a target="_blank" href="https://facebook.com/tofexzyno2005">
-          <FaFacebook className="text-blue-600" />
+          <FaFacebook className="text-[#148dff]" />
         </a>
         <a target="_blank" href="http://linkedin.com/in/tofunmitranspose?">
-          <FaLinkedin className="text-blue-700" />
+          <FaLinkedin className="text-[#235dfc]" />
         </a>
         <a href="tel:+2349134744279">
-          <FaPhoneSquareAlt className="text-green-400" />
+          <FaPhoneSquareAlt className="text-[#3bff3b]" />
         </a>
       </div>
     </div>
