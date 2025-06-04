@@ -10,25 +10,13 @@ const Skills = () => {
     <div className="border-t-2 border-white mb-10 pt-4 bg-[#111111] h-35 mt-5 flex flex-col items-center gap-5">
       <h2 className="text-3xl text-white font-bold">Skills</h2>
       <div className="flex justify-around w-9/10">
-        <FaHtml5 className="text-4xl" style={{ color: "rgb(255, 160, 17)" }} />
-        <IoLogoCss3
-          className="text-4xl"
-          style={{ color: "rgb(37, 139, 255)" }}
-        />
-        <IoLogoJavascript
-          className="text-4xl"
-          style={{ color: "rgb(255, 2505, 0)" }}
-        />
-        <FaReact className="text-4xl" style={{ color: "rgb(255, 0, 255)" }} />
-        <FaGithub
-          className="text-4xl"
-          style={{ color: "rgb(255, 255, 255)" }}
-        />
-        <FaGitAlt className="text-4xl" style={{ color: "#ff6600" }} />
-        <BiLogoTailwindCss
-          className="text-4xl"
-          style={{ color: "rgb(0, 255, 255)" }}
-        />
+        <FaHtml5 className="text-4xl text-[#ffa011]" />
+        <IoLogoCss3 className="text-4xl text-[#258bff]" />
+        <IoLogoJavascript className="text-4xl text-[#ffff00]" />
+        <FaReact className="text-4xl text-[#ff00ff]" />
+        <FaGithub className="text-4xl text-white" />
+        <FaGitAlt className="text-4xl text-[#ff6600]" />
+        <BiLogoTailwindCss className="text-4xl text-[#00ffff]" />
       </div>
     </div>
   );

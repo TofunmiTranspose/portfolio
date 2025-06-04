@@ -5,9 +5,10 @@ import profilePic from "./ProfilePic.png";
 const Hero = () => {
   const { theme } = useContext(ThemeContext);
   const headCol = theme ? "text-gray-200" : "text-[#000000]";
-  const nameCol = theme ? "text-yellow-400" : "text-[#E7C220]";
+  const nameCol = theme ? "text-yellow-400" : "text-[#c7a200]";
   const pasCol = theme ? "text-gray-200" : "text-[#4A4A4A]";
   const borCol = theme ? "border-2 border-teal-300" : "border-3 text-[#3b3b3b]";
+  const bCol = theme ? "text-white" : "text-black";
   return (
     <div className="sm:px-5 sm:mt-10 flex sm:justify-around flex-col sm:flex-row">
       <div className="sm:pl-10 h-screen/2 sm:w-full mt-8 flex flex-col justify-center items-center sm:items-start">
@@ -22,7 +23,8 @@ const Hero = () => {
         <p
           className={`text-sm text-center sm:text-start sm:max-w-65 ${pasCol} font-semibold mb-10`}
         >
-          A passionate Web Developer bringing ideas to life, <b>pixel by pixel</b> 
+          A passionate Web Developer bringing ideas to life,{" "}
+          <b className={`${bCol}`}>pixel by pixel</b>
         </p>
       </div>
       <div className="w-full sm:w-7/10 flex justify-center items-center">

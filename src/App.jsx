@@ -8,17 +8,16 @@ import Burger from "./Components/Burger";
 import Contact from "./Components/Contact";
 
 export const ThemeContext = createContext();
-
 const App = () => {
   const [theme, setTheme] = useState(true);
   const toggleTheme = () => {
     setTheme(!theme);
     console.log(theme);
   };
-  const mBg = theme ? 'bg-[#0f0f0f]' : 'bg-[#e000ff]';
+  const mBg = theme ? "bg-[#0f0f0f]" : "bg-[#ffffee]";
 
   return (
-    <ThemeContext.Provider value={{theme, toggleTheme}}>
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div id="app" className={`pt-2 min-w-80 ${mBg} w-screen box-border`}>
         <div className="px-5 flex w-screen justify-between items-center">
           <Navbar />
