@@ -7,7 +7,7 @@ import { BiLogoTailwindCss } from "react-icons/bi";
 
 const Skills = () => {
   return (
-    <div id="skills" className="border-t-2 border-white mb-10 pt-4 bg-[#111111] h-35 mt-5 flex flex-col items-center gap-5">
+    <div id="skills" className="mb-10 pt-4 bg-[#111111] h-35 flex flex-col items-center gap-5">
       <h2 className="text-3xl text-white font-bold">Skills</h2>
       <div className="flex justify-around w-9/10">
         <FaHtml5 className="text-4xl text-[#ffa011]" />

@@ -7,6 +7,7 @@ import LightDark from "./Components/LightDark";
 import Burger from "./Components/Burger";
 import Contact from "./Components/Contact";
 import Menu from "./Components/Menu";
+import Attributes from "./Components/Attributes";
 
 export const ThemeContext = createContext();
 export const MenuContext = createContext();
@@ -37,6 +38,7 @@ const App = () => {
         <Menu/>
         </MenuContext.Provider>
         <Hero />
+        <Attributes/>
         <Skills />
         <Projects />
         <Contact />
