@@ -5,7 +5,7 @@ import profilePic from "./ProfilePic.png";
 const Hero = () => {
   const { theme } = useContext(ThemeContext);
   const headCol = theme ? "text-gray-200" : "text-[#000000]";
-  const nameCol = theme ? "text-yellow-400" : "text-[#C7A200]";
+  const nameCol = theme ? "text-yellow-400" : "text-[#E7C220]";
   const pasCol = theme ? "text-gray-200" : "text-[#4A4A4A]";
   const borCol = theme ? "border-2 border-teal-300" : "border-3 text-[#3b3b3b]";
   return (
