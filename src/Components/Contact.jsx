@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <div
       id="contactSection"
-      className="w-full py-2 px-4 bg-[#1a1a1a] mt-15 flex flex-col gap-2"
+      className="w-full py-2 px-4 bg-[#1d1d1d] mt-15 flex flex-col gap-2"
     >
       <div>
         <h1 className="text-white font-semibold text-lg">Contact</h1>
