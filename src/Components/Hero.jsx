@@ -28,7 +28,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="w-full sm:w-7/10 flex justify-center items-center">
-        <div className={`rounded-full ${borCol}  w-8/10 sm:w-10/10`}>
+        <div className={`rounded-full ${borCol}  w-8/10 max-w-90 sm:w-10/10`}>
           <img src={profilePic} />
         </div>
       </div>

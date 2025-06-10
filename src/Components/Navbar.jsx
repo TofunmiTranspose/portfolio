@@ -26,7 +26,7 @@ const Navbar = () => {
       </div>
       <div className="mr-3">
         <button
-          className={`bg-teal-500 px-3 w-20 py-1 rounded-full  ${accCol.b} font-semibold text-sm`}
+          className={`bg-teal-500 px-3 w-20 py-1 rounded-full  ${accCol.b} font-semibold text-sm hover:scale-105 transition duration-300 ease `}
         >
           <a href="https://wa.link/yjileb">Hire Me</a>
         </button>
