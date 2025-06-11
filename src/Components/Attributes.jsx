@@ -4,7 +4,7 @@ const Attributes = () => {
   return (
     <div className='mt-10 w-full h-8 bg-[#322828] flex items-center justify-center text-white text-[8px] font-semibold z-1'
     >
-      <ul className='w-full flex justify-around'>
+      <ul className='w-full flex justify-around gap-3 overflow-hidden'>
         <li className='ani'>FAST LEARNER</li>
         <li className='ani'>TEAM ORIENTED</li>
         <li className='ani'>DETAIL MASTER</li>

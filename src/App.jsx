@@ -8,6 +8,7 @@ import Burger from "./Components/Burger";
 import Contact from "./Components/Contact";
 import Menu from "./Components/Menu";
 import Attributes from "./Components/Attributes";
+import AgriconHome from "./Components/AgriconHome";
 
 export const ThemeContext = createContext();
 export const MenuContext = createContext();
@@ -24,8 +25,7 @@ const App = () => {
       setMenu(!menu);
     }
 
-  return (
-    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+    return <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div id="app" className={`pt-2 min-w-80 ${mBg} w-screen box-border`}>
         <MenuContext.Provider value={[menu, toggleMenu]}>
         <div className="px-5 flex w-screen justify-between items-center">
@@ -44,7 +44,8 @@ const App = () => {
         <Contact />
       </div>
     </ThemeContext.Provider>
-  );
+   {/* <AgriconHome/> */}
+  
 };
 
 export default App;
