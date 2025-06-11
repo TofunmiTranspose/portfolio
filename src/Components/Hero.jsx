@@ -26,11 +26,11 @@ const Hero = () => {
           A passionate Web Developer bringing ideas to life,{" "}
           <b className={`${bCol}`}>pixel by pixel</b>
         </p>
-      <button className="self-center sm:self-start my-2 mb-4 text-[10px] font-semibold shadow-[#999999] shadow-xs bg-yellow-400 w-30 h-8 rounded-md">
-        <a href="https://drive.usercontent.google.com/download?id=10opdh0gA6nAq60mcvP5Astv01BG2lbxU&export=download&authuser=0">
-          Download My Resume
-        </a>
-      </button>
+        <button className="self-center sm:self-start my-2 mb-4 text-[10px] font-semibold shadow-[#999999] shadow-xs bg-yellow-400 w-30 h-8 rounded-sm">
+          <a href="https://drive.usercontent.google.com/download?id=10opdh0gA6nAq60mcvP5Astv01BG2lbxU&export=download&authuser=0">
+            Download My Resume
+          </a>
+        </button>
       </div>
       <div className="w-full sm:w-7/10 flex justify-center items-center">
         <div className={`rounded-full ${borCol}  w-8/10 max-w-90 sm:w-10/10`}>
