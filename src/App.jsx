@@ -8,7 +8,6 @@ import Burger from "./Components/Burger";
 import Contact from "./Components/Contact";
 import Menu from "./Components/Menu";
 import Attributes from "./Components/Attributes";
-import AgriconHome from "./Components/AgriconHome";
 
 export const ThemeContext = createContext();
 export const MenuContext = createContext();
@@ -44,7 +43,6 @@ const App = () => {
         <Contact />
       </div>
     </ThemeContext.Provider>
-   {/* <AgriconHome/> */}
   
 };
 
