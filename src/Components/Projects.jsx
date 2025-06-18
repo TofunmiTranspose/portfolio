@@ -1,8 +1,12 @@
 import React, { useContext } from "react";
+import '/src/assets/school.png';
+import '/src/assets/sail.png';
+import '/src/assets/dashBoard.png';
+import '/src/assets/firbase.png';
+import '/src/assets/brand.png';
 import { ThemeContext } from "../App.jsx";
 
 const Projects = () => {
-  const { theme } = useContext(ThemeContext);
   return (
     <div>
       <div className="sm:mt-10 flex flex-col items-center gap-10">
