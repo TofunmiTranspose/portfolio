@@ -26,7 +26,10 @@ const Hero = () => {
           A passionate Web Developer bringing ideas to life,{" "}
           <b className={`${bCol}`}>pixel by pixel</b>
         </p>
-        <button className="self-center sm:self-start my-2 mb-4 text-[10px] font-semibold shadow-[#999999] shadow-xs bg-yellow-400 w-30 h-8 rounded-sm">
+        <button
+          className="self-center sm:self-start my-2 mb-4 text-[10px] font-semibold shadow-[#777777] shadow-xs bg-yellow-400 w-30 h-8 rounded-sm hover:translate-y-[-5px]
+             transition-all duration-300 ease-in-out cursor-pointer"
+        >
           <a href="https://drive.usercontent.google.com/download?id=10opdh0gA6nAq60mcvP5Astv01BG2lbxU&export=download&authuser=0">
             Download My Resume
           </a>
