@@ -1,9 +1,5 @@
 import React, { useContext } from "react";
-import '/src/assets/school.png';
-import '/src/assets/sail.png';
-import '/src/assets/dashBoard.png';
-import '/src/assets/firbase.png';
-import '/src/assets/brand.png';
+import { assets } from "../assets/assets.jsx";
 import { ThemeContext } from "../App.jsx";
 
 const Projects = () => {
@@ -19,32 +15,32 @@ const Projects = () => {
         <div className="flex flex-wrap gap-5 w-full items-baseline justify-center">
           <Project
             title="Fullstack School Web App"
-            src="./src/assets/school.png"
+            src={assets.school}
             href="https://holy-child.vercel.app/"
             description="React.js, Tailwind CSS, Firebase"
           />
           <Project
             title="SailTrue shipping tracker"
-            src="./src/assets/sail.png"
+            src={assets.sail}
             href="https://sail-true.vercel.app/"
             description="React, Tailwind CSS"
           />
           <Project
-            title="Crypto DashboardCrypto Dashboard"
-            src="./src/assets/dashBoard.png"
+            title="Crypto Dashboard App"
+            src={assets.dashBoard}
             href="https://crypto-dashboard-gilt-one.vercel.app/"
             description="React, Node.js, MongoDB"
           />
           <Project
             title="Todo App with Firebase Database"
-            src="./src/assets/firbase.png"
+            src={assets.firebase}
             href="https://tofunmitranspose.github.io/firebase-todo/"
             description="React, Node.js, MongoDB"
           />
           <Project
             title="Landing Page for Branding"
+            src={assets.brand}
             href="https://tofunmitranspose.github.io/brand/"
-            src="./src/assets/brand.png"
             description="React, Node.js, MongoDB"
           />
         </div>
